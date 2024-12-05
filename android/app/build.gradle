@@ -1,0 +1,6 @@
+android {
+    defaultConfig {
+        applicationId "com.teachties.app"
+        // ... other config
+    }
+}

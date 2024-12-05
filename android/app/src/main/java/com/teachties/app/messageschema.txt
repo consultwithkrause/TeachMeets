@@ -1,0 +1,10 @@
+{
+  senderUserId: string,        // Unique ID of message sender
+  senderDisplayName: string,   // Display name of sender
+  senderUsername: string,      // Username of sender
+  receiverUserId: string,      // User whose wall the message is on
+  messageText: string,         // Actual message content
+  timestamp: serverTimestamp,  // Precise server timestamp
+  likes: number,               // Optional: like count
+  comments: array              // Optional: comment thread
+}
